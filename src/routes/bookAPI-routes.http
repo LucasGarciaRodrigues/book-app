@@ -1,0 +1,27 @@
+### GET
+GET  http://localhost:3000/bookAPI/book/
+Content-Type: application/json
+Accept-Language: pt-BR
+ 
+### POST
+POST http://localhost:3000/bookAPI/book/
+Content-Type: application/json
+Accept-Content-Type: pt-BR
+
+{
+    "title": "The Cuckoo's Calling",
+    "author": "Robert Galbraith",
+    "year": "1984"
+}
+
+### DELETE
+DELETE http://localhost:3000/bookAPI/book/ec635021-d26d-4fe4-ab72-ee28b3531e03
+
+### GET
+GET http://localhost:3000/bookAPI/book/ec635021-d26d-4fe4-ab72-ee28b3531e03/loan
+
+### POST
+POST http://localhost:3000/bookAPI/book/ec635021-d26d-4fe4-ab72-ee28b3531e03/loan
+
+### POST
+DELETE http://localhost:3000/bookAPI/book/d26e6088-4ad8-451a-8c9a-a9bf89ea8793/return
